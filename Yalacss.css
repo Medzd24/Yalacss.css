@@ -1,0 +1,71 @@
+
+
+.slider {
+	width: 100%; /* height: 235px */;
+	overflow:hidden;
+	position:relative;
+	margin:auto;
+	top:auto;
+	left:auto;
+}
+
+.slide {
+	width: 100%; height: 100%;
+	transition:left 0.0, transform 0.0;
+	position:absolute;
+	left:0; top:0;
+	transition-timing-function:ease-out;
+	border-radius:2vmin;
+	text-align:center;
+	color: black;
+	font-weight:bold;
+	font-style:italic;
+	text-shadow:-1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black;
+}
+
+
+/*Buttons*/
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 23%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	z-index:2;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+
+		}
+		button{
+			background-color: white;
+			color: black;
+			border: none;
+			border-radius: 5px;
+			size: 20px;
+			width: 70px;
+			padding: 10px;
+		}
+		div .jordan2{
+		  overflow-x: scroll;
+		  overflow-y: hidden;
+		  white-space: nowrap;
+              direction: rtl;
+
+		}
